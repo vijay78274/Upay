@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Qrpayment">
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/text"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send money to account" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        app:cardCornerRadius="5sp"
+        android:elevation="10sp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/text"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="To mobile no."
+                android:padding="10sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/custom_edit"
+                android:inputType="phone" />
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="enter amount"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/custom_edit"
+                android:inputType="phone" />
+            <Button
+                android:id="@+id/button"
+                android:text="send"
+                android:background="@drawable/custom_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone"></Button>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

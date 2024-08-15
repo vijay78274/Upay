@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "144784248803",
+    "firebase_url": "https://prochat-e450b-default-rtdb.firebaseio.com",
+    "project_id": "prochat-e450b",
+    "storage_bucket": "prochat-e450b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144784248803:android:a66cb82fee86a3dcccdad6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe9qUossQruNnmBUHJp45UtlcpA05Pffo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

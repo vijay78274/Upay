@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5sp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_margin="8sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5sp"
+            android:layout_height="50sp"
+            android:background="@drawable/custom_edit"
+            android:text="zxxxxxxxxx" />
+        <TextView
+            android:layout_below="@id/id"
+            android:id="@+id/accountNumber"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5sp"
+            android:layout_height="50sp"
+            android:background="@drawable/custom_edit"
+            android:text="zxxxxxxxxx" />
+        <LinearLayout
+            android:layout_below="@id/accountNumber"
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="5sp"
+                android:layout_weight="1"
+                android:layout_height="50sp"
+                android:background="@drawable/custom_edit"
+                android:text="500.00" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:padding="5sp"
+                android:layout_weight="1"
+                android:layout_height="50sp"
+                android:textSize="15sp"
+                android:background="@drawable/custom_edit"
+                android:text="12-02-2023 7:00" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/layout1"
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:padding="5sp"
+                android:textSize="15sp"
+                android:layout_height="50sp"
+                android:background="@drawable/custom_edit"
+                android:text="Status" />
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:padding="5sp"
+                android:layout_height="50sp"
+                android:background="@drawable/custom_edit"
+                android:text="Type" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
